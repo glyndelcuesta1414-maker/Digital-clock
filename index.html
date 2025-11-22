@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock & Countdown Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Digital Clock -->
+        <div class="clock-box">
+            <h2>Digital Clock</h2>
+            <div id="clock">00:00:00</div>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="timer-box">
+            <h2>Countdown Timer</h2>
+
+            <div class="inputs">
+                <input type="number" id="minutes" placeholder="Minutes">
+                <input type="number" id="seconds" placeholder="Seconds">
+            </div>
+
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="resetBtn">Reset</button>
+
+            <div id="timer-display">00:00</div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
